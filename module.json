@@ -1,0 +1,22 @@
+{
+  "name": "better-conditional-damage",
+  "title": "Better Conditional Damage",
+  "description": "Adds options to display conditional damage types.",
+  "authors": [
+    {
+      "name": "Hugo Paulista"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "scripts": [
+    "scripts/main.js",
+    "scripts/better-conditional-damage.js"
+  ],
+  "socket": true,
+  "id": "better-conditional-damage",
+  "minimumCoreVersion": "10"
+}
