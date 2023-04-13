@@ -4,7 +4,7 @@
   "description": "Adds options to display conditional damage types.",
   "authors": [
     {
-      "name": "Hugo Paulista"
+      "name": "hugopaulista7"
     }
   ],
   "version": "0.0.1",
@@ -18,5 +18,7 @@
   ],
   "socket": true,
   "id": "better-conditional-damage",
-  "minimumCoreVersion": "10"
+  "minimumCoreVersion": "10",
+  "manifest": "https://raw.githubusercontent.com/hugopaulista7/better-conditional-damage/main/module.json",
+  "download": "https://github.com/hugopaulista7/better-conditional-damage/raw/main/plutonium.zip"
 }
