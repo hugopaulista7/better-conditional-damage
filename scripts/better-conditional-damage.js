@@ -4,8 +4,6 @@ class BetterConditionalDamage extends Application {
       CONSTS_CONDITIONAL_DAMAGE.SELECTED_KEY
     )
     const optsParsed = JSON.parse(optsJson)
-
-    console.log('OPTIONS PARSED::', optsParsed)
     return optsParsed
   }
 
