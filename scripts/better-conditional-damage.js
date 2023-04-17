@@ -56,14 +56,6 @@ class BetterConditionalDamage extends Application {
 
   init() {
     Hooks.once('ready', () => {
-      game.settings.register('conditional-damage', 'options', {
-        name: 'Opções de Dano Condicional',
-        hint: 'Configurações para o módulo de dano condicional',
-        scope: 'world',
-        config: true,
-        type: Object,
-        default: {},
-      })
       this.interceptDamageRolls()
     })
   }
